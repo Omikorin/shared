@@ -1,0 +1,28 @@
+{
+  "name": "@omikorin/prettier-config",
+  "version": "1.0.0",
+  "description": "A curated .prettierrc with explicit config for every option.",
+  "keywords": [
+    "config",
+    "omikorin",
+    "prettier"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omikorin/shared.git",
+    "directory": "packages/prettier-config"
+  },
+  "author": "Michał Korczak (https://omikor.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omikorin/shared/issues"
+  },
+  "homepage": "https://github.com/Omikorin/shared#readme"
+}

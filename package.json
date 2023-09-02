@@ -1,0 +1,28 @@
+{
+  "name": "shared",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\""
+  },
+  "packageManager": "pnpm@8.7.1",
+  "volta": {
+    "node": "20.5.1",
+    "pnpm": "8.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Omikorin/shared.git"
+  },
+  "author": "Michał Korczak (https://omikor.in)",
+  "license": "ISC",
+  "devDependencies": {
+    "@omikorin/prettier-config": "workspace:*",
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.13"
+  },
+  "prettier": "@omikorin/prettier-config"
+}
